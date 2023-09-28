@@ -8,6 +8,7 @@ import {AiOutlineHeart} from "react-icons/ai";
 import {MdKeyboardArrowLeft} from "react-icons/md";
 import styles from "./styles/Sidebar.module.css"
 import {FaCircle} from "react-icons/fa";
+import {GoGear} from "react-icons/go";
 
 interface IProps {
 }
@@ -28,13 +29,17 @@ function SideBar(props: IProps) {
     return (
         <Fragment>
             <div className={styles.sidebar}>
-                    {menuItems.map((item) => (
-                        <div key={item.key}>
-                            <span className={styles.icon}>{item.icon}</span>
-                        </div>
-                    ))}
+                {menuItems.map((item) => (
+                    <div key={item.key}>
+                        <span className={styles.icon}>{item.icon}</span>
+                    </div>
+                ))}
+                <div className={styles.icon}>
+                    <GoGear className={styles.gearIcon}/>
+                    <div className={styles.icon}></div>
+                </div>
             </div>
-            <div></div>
+
         </Fragment>
     );
 }

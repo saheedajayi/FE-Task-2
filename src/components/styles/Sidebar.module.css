@@ -21,3 +21,7 @@
     color: rgba(29, 78, 216, 1);
     border-radius: 8px;
 }
+
+.gearIcon{
+    margin-inline: auto;
+}

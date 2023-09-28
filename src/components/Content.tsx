@@ -69,13 +69,32 @@ function Content(props: IProps) {
                         </p>
                     </div>
                 </div>
-
-                <Candidate name={"Aliyah Sanderson"}
-                           location={"Riyadh, Saudi Arabia"}
-                           education={"Bachelor - Cambridge University (2020 - 2023)"}
-                           skills={["Marketing", "London", "NewYork"]}
-                           experience={["#topCandidate", "#topCandidate"]}/>
-
+                <div className={styles.candidateDiv}>
+                    <Candidate name={"Aliyah Sanderson"}
+                               location={"Riyadh, Saudi Arabia"}
+                               education={"Bachelor - Cambridge University (2020 - 2023)"}
+                               skills={["Marketing", "London", "NewYork"]}
+                               experience={["#topCandidate", "#topCandidate"]}
+                    />
+                </div>
+                <div className={styles.candidateDiv}>
+                    <Candidate
+                        name={"John Doe"}
+                        location={"Bostom, USA"}
+                        education={"Bachelor - MIT (2023 - 2023)"}
+                        skills={["Marketing", "London", "NewYork"]}
+                        experience={["#topCandidate", "#topCandidate"]}
+                    />
+                </div>
+                <div className={styles.candidateDiv}>
+                    <Candidate
+                        name={"John Doe"}
+                        location={"Bostom, USA"}
+                        education={"Bachelor - MIT (2023 - 2023)"}
+                        skills={["Marketing", "London", "NewYork"]}
+                        experience={["#topCandidate", "#topCandidate"]}
+                    />
+                </div>
             </div>
         </div>
     );

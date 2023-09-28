@@ -125,3 +125,13 @@
     background-color: rgba(247, 248, 253, 1);
     padding: 5px;
 }
+
+.candidateDiv{
+    border-bottom: 1px solid #D0D5DD;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.candidateDiv:last-child{
+    border-bottom: none;
+}
