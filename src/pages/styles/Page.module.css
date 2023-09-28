@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    width: 100px;
+}
+
+.rightSide{
+    width: 100vw;
+    background-color: rgba(249, 250, 255, 1);
+}

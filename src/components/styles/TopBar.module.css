@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 100px;
+    color: #000;
+}
+
+.main > div > h1{
+    font-size: 1.5rem;
+    color: rgba(29, 78, 216, 1);
+    margin-bottom: .5rem;
+}
+
+.iconsDiv{
+    display: flex;
+}
+
+.personIcon,
+.personCheck,
+.personPlus{
+    font-size: 1.2rem;
+}
+.tBIcon{
+    border-radius: 8px;
+   background-color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.farRight{
+    display: flex;
+    align-items: center;
+}
+
+.farRight >p{
+    margin-left: 10px;
+}

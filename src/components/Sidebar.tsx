@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react';
-import {Menu} from 'antd';
 import {CgHomeAlt} from "react-icons/cg";
 import {GrGroup, GrShareOption} from "react-icons/gr";
 import {PiCalendarCheck} from "react-icons/pi";
@@ -14,7 +13,7 @@ interface IProps {
 }
 
 const menuItems = [
-    {key: 'circle', icon: <FaCircle/>},
+    {key: 'circle', icon: <FaCircle className={styles.circle}/>},
     {key: 'home', icon: <CgHomeAlt/>},
     {key: 'group', icon: <GrGroup/>},
     {key: 'calendar', icon: <PiCalendarCheck/>},
@@ -29,13 +28,11 @@ function SideBar(props: IProps) {
     return (
         <Fragment>
             <div className={styles.sidebar}>
-                <Menu mode="vertical">
                     {menuItems.map((item) => (
-                        <Menu.Item key={item.key}>
+                        <div key={item.key}>
                             <span className={styles.icon}>{item.icon}</span>
-                        </Menu.Item>
+                        </div>
                     ))}
-                </Menu>
             </div>
             <div></div>
         </Fragment>
