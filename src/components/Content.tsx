@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./styles/Content.module.css";
 import {HiOutlineSearch} from "react-icons/hi";
 import {LiaFileAltSolid} from "react-icons/lia";
+import Candidate from "./candidate";
 
 interface IProps {
 }
@@ -69,7 +70,11 @@ function Content(props: IProps) {
                     </div>
                 </div>
 
-                {/*COMPONENT GOES HERE*/}
+                <Candidate name={"Aliyah Sanderson"}
+                           location={"Riyadh, Saudi Arabia"}
+                           education={"Bachelor - Cambridge University (2020 - 2023)"}
+                           skills={["Marketing", "London", "NewYork"]}
+                           experience={["#topCandidate", "#topCandidate"]}/>
 
             </div>
         </div>

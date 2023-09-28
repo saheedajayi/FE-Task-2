@@ -1,0 +1,46 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+}
+
+.mainContainerSub {
+    width: 20%;
+}
+
+.mainContainerImage {
+    width: 100px;
+    height: 100px;
+    background-color: #EDF4FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D0E1FF;
+    font-size: 24px;
+    margin: auto;
+    font-family: Poppins, serif;
+}
+
+.mainContainerContent{
+    width: 70%;
+}
+
+.experience{
+    color: #1D4ED8;
+    margin-right: 20px;
+}
+
+.skillItem{
+    width: 10px;
+    height: 10px;
+    background-color:#F3FAFC;
+    border-radius: 10%;
+    color: #037092;
+    font-size: 14px;
+}
+
+.skillSeparator{
+    margin-right: 15px;
+    background: none;
+}
